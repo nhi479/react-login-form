@@ -1,0 +1,58 @@
+.container {
+  width: 100vw;
+  height: 60vh;
+  display: flex;
+  justify-content: center;
+  background-color: rgb(255, 255, 255);
+}
+
+.loginForm {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding-top: 30px;
+}
+
+.loginFormLabel {
+  width: 300px;
+  font-size: medium;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.loginFormInput {
+  flex: 1;
+  border: none;
+  height: 25px;
+  margin-left: 20px;
+  border-radius: 5px;
+  border: 1px solid gray;
+}
+
+.loginFormInput:hover {
+  outline: none;
+}
+
+.loginFormInput:focus {
+  outline: none;
+}
+
+.loginSubmitBtn {
+  border: none;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  background-color: cadetblue;
+  font-size: large;
+  color: white;
+}
+
+.loginSubmitBtn:hover {
+  cursor: pointer;
+}
+.loginSubmitBtn:active {
+  background: rgb(51, 101, 103);
+}
